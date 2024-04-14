@@ -1,2 +1,5 @@
 # arp-spoof-attack-detection
-The "Detect ARP Spoof Attack using Scapy in Python" project focuses on leveraging the Scapy library in Python to identify and mitigate ARP spoofing attacks. ARP spoofing, also known as ARP cache poisoning
+
+The "Detect ARP Spoof Attack using Scapy in Python" project focuses on leveraging the Scapy library in Python to identify and mitigate ARP spoofing attacks. ARP spoofing, also known as ARP cache poisoning, is a type of cyber attack where an attacker sends falsified ARP (Address Resolution Protocol) messages over a local area network. These messages associate the attacker's MAC address with the IP address of a legitimate network node, diverting traffic or facilitating eavesdropping.
+
+In this project, Scapy, a powerful packet manipulation tool, is utilized to sniff network traffic and analyze ARP packets. By comparing ARP requests and responses and monitoring for discrepancies, the program can identify potential ARP spoofing attempts. Once detected, appropriate actions such as alerting the network administrator or implementing countermeasures can be taken to mitigate the attack and secure the network. Through this project, users gain hands-on experience in network security and Python programming while enhancing their understanding of ARP spoofing detection techniques.
